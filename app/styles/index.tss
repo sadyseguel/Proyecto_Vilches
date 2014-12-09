@@ -1,0 +1,17 @@
+".container": {
+	backgroundImage:'/images/default.png',
+  	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+"Label": {
+	top: "5dp",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#FFFFFF"
+}, 
+
+"#label": {
+	font: {
+		fontSize: 20
+	}
+}

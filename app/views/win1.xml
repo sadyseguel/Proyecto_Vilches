@@ -1,0 +1,90 @@
+<Alloy>
+	<Window class="container">
+		<View id="menu" onClick="showhidemenu">
+			
+		</View>
+		
+		
+		<Label id="main" onClick="showWin2"></Label>
+		<View id="main">
+			<ScrollableView id="portefolio" showPagingControl="true" currentPage="0" pagingControlHeight="30">
+				<View id="iconBar"></View>
+				<View id="iconBar2"></View>
+				<View id="iconBar3"></View>
+				<View id="iconBar4"></View>	
+			</ScrollableView>
+			
+			<View id="menuBar">
+				
+				<View class="tbButton">
+					<ImageView id="menubtn" onClick="showhidemenu"></ImageView>	
+				</View>
+				
+				<View  class="tbButton">
+					<ImageView id="photoBtn" onClick="showWincam"></ImageView>
+				</View>
+				
+				<View  class="tbButton">
+					<ImageView id="checkinBtn" onClick="showWin2"></ImageView>
+				</View>
+				
+			</View>
+			<View id="grayLine"></View>
+			<TableView id="mainList">
+				<TableViewRow id="listRow">
+					<View id="rowContainer">
+						<ImageView id="profilePic"></ImageView>
+						<Label id="profileName">Sady Seguel M.</Label>
+						<Label id="timeAgo">10 minutes ago</Label>
+						<Label id="status">Colocar estado.</Label>
+						<View id="grayLine" bottom="51"></View>
+						<View id="bottomActions">
+							<View class="itemActionButton">
+								<ImageView id="likeBtn" onClick="likeunlike"></ImageView>
+							</View>
+							<View  class="itemActionButton">
+								<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							</View>
+						</View>
+					</View>
+				</TableViewRow>
+				<TableViewRow id="listRow">
+					<View id="rowContainer">
+						<ImageView></ImageView>
+						
+		
+	
+						<Label id="timeAgo"></Label>
+						<Label id="status"></Label>
+						<View id="grayLine" bottom="51"></View>
+						<View id="bottomActions">
+							<View class="itemActionButton">
+								<ImageView id="likeBtn" onClick="likeunlike"></ImageView>
+							</View>
+							<View  class="itemActionButton">
+								<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							</View>
+						</View>
+					</View>
+				</TableViewRow>
+				<TableViewRow id="listRow">
+					<View id="rowContainer">
+						<ImageView></ImageView>
+						<Label id="profileName"></Label>
+						<Label id="timeAgo"></Label>
+						<Label id="status"></Label>
+						<View id="grayLine" bottom="51"></View>
+						<View id="bottomActions">
+							<View class="itemActionButton">
+								<ImageView id="likeBtn" onClick="likeunlike"></ImageView>
+							</View>
+							<View  class="itemActionButton">
+								<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							</View>
+						</View>
+					</View>
+				</TableViewRow>
+			</TableView>
+		</View>
+	</Window>
+</Alloy>

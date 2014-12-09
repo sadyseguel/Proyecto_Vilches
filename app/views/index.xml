@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class = "container">
+		<!--Label id="label" onClick="showWin1">Bienvenidos</Label>
+		 <!-- Use the Alloy.Globals.Facebook namespace to create a Facebook module login button -->
+        <LoginButton id="fbButton" ns="Alloy.Globals.Facebook" />
+		
+	</Window>
+</Alloy>
